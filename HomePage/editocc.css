@@ -592,6 +592,12 @@
                 font-weight: 300;
                 font-size: 11px;
             }
+            .sk {
+                font-size: 30px;
+            }
+            .blabl {
+                font-size: 12px;
+            }
         }
         
         @media screen and (max-width:400px) {
