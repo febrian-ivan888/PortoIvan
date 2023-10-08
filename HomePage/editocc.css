@@ -402,9 +402,13 @@
         }
         
         @media screen and (max-width: 680px) {
+            .homecont .image {
+                margin-top: 70px;
+                margin-bottom: 90px;
+            }
             .homecont .image .gamb {
-                height: 200px;
-                width: 200px;
+                height: 250px;
+                width: 250px;
             }
             .job {
                 font-size: 20px;
