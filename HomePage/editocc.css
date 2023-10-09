@@ -205,10 +205,10 @@
         }
         
         .homecont {
-            width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
+            max-width: 100%
         }
         
         .homedat {
@@ -545,7 +545,6 @@
                 flex-direction: column;
                 gap: 15px;
                 padding-top: 30px;
-                background: #0077b5;
             }
             .social-menu ul li a:hover {
                 transform: translateY(-4px);
@@ -905,7 +904,7 @@
         
         .wrapper {
             display: flex;
-            width: 100%;
+            max-width: 1200px;
             position: relative;
             margin: 100px;
             margin-top: 30px;
@@ -1018,7 +1017,7 @@
         
         .timel {
             position: relative;
-            width: 100%;
+            max-width: 100%;
             margin: 100px auto;
             align-items: center;
         }
