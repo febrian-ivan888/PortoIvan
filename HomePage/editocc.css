@@ -205,7 +205,7 @@
         }
         
         .homecont {
-            max-width: 1800px;
+            width: 100%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -488,7 +488,7 @@
             justify-content: center;
             padding-top: 100px;
             margin-bottom: 100px;
-            overflow: hidden;
+            width: 100%;
         }
         
         .social-menu ul li {
@@ -545,7 +545,7 @@
                 flex-direction: column;
                 gap: 15px;
                 padding-top: 30px;
-                margin: 10px;
+                background: #0077b5;
             }
             .social-menu ul li a:hover {
                 transform: translateY(-4px);
@@ -905,7 +905,7 @@
         
         .wrapper {
             display: flex;
-            max-width: 1200px;
+            width: 100%;
             position: relative;
             margin: 100px;
             margin-top: 30px;
@@ -1018,7 +1018,7 @@
         
         .timel {
             position: relative;
-            max-width: 1200px;
+            width: 100%;
             margin: 100px auto;
             align-items: center;
         }
