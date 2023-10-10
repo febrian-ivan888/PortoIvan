@@ -1276,6 +1276,21 @@
             margin: 15px;
         }
         
+        @media screen and (max-width: 745px) {
+            footer .sociali li a {
+                font-size: 23px;
+            }
+            footer .menu li a {
+                font-size: 13px;
+            }
+            .kis {
+                font-size: 12px;
+                padding: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+            }
+        }
+        
         @media screen and (max-width: 400px) {
             footer p {
                 font-size: 11px;
