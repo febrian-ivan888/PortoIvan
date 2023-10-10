@@ -88,3 +88,16 @@ document.addEventListener("mousemove", dragging);
 carousel.addEventListener("touchmove", dragging);
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
+
+document.getElementById("email").addEventListener("click", function() {
+    // Ganti alamat email berikut dengan alamat email Anda
+    var emailTo = "ivanfebrian812@gmail.com";
+
+    // Ganti subjek email sesuai kebutuhan Anda
+
+    // Ganti isi email sesuai kebutuhan Anda
+    var body = "My email";
+
+    // Membuka aplikasi email default pengguna dengan email baru
+    window.location.href = "mailto:" + emailTo + "?subject=" + subject + "&body=" + body;
+});
